@@ -3,41 +3,58 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e1b4f1;
+    color: #eceff1 ; 
+    
+   /* background-image:  */
+  
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
     background: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url(./image/DevOps_Engineer_Cloud_Engineer.jpg);
+    background-size: 100% 100%; /* stretch the image to cover the entire element */
+    background-position: center; /* center the image horizontally and vertically */
+    background-repeat: no-repeat; /* don't repeat the image */
+}
+.section2 p{
+     text-align: center;
 }
 
+.section2 h3{
+    text-align: center;
+}
 .center-heading {
     text-align: center;
 }
 
-
 header {
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #eceff1;
     padding-bottom: 10px;
     margin-bottom: 20px;
+    
 }
 
 header h1 {
     margin: 0;
-    color: #333;
+    color: #eceff1 ;
+    text-align: center;
+    
 }
 
 .contact-info p {
     margin: 5px 0;
+    text-align: center;
 }
 
 h2 {
-    color: #333;
-    border-bottom: 1px solid #ddd;
+    color: #eceff1 ;
+    border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
@@ -49,4 +66,15 @@ ul {
 
 ul li {
     margin-bottom: 10px;
+}
+
+.image-sidebar {
+    float: left; /* or left */
+    width: 150px; /* adjust the width to your liking */
+    height: 150px; /* adjust the height to your liking */
+    margin: 20px; /* add some margin to create space around the image */
+    background-image: url(./image/client-1.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
