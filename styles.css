@@ -22,8 +22,12 @@ body {
     background-position: center; /* center the image horizontally and vertically */
     background-repeat: no-repeat; /* don't repeat the image */
 }
+.section {
+    text-align: left;
+    
+}
 .section2 p{
-     text-align: center;
+     text-align: left;
 }
 
 .section2 h3{
@@ -67,7 +71,11 @@ ul {
 ul li {
     margin-bottom: 10px;
 }
-
+/* h3, p {
+    display: inline-block;
+    vertical-align: left;
+    font-weight: bold ;
+  } */
 .image-sidebar {
     float: left; /* or left */
     width: 150px; /* adjust the width to your liking */
